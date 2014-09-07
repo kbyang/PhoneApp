@@ -1,0 +1,13 @@
+How to commit changes to Git
+
+1. Go to /PhoneApp on your computer, wherever that directory may be.
+2. Run git pull (origin master)
+3. Make your changes
+4. Run git commit -am "add your message here" (the -a stands for added files, the -m stands for message)
+*Make sure your message specifically describes your changes
+5. Run git push (origin master)
+
+sresht is a dick
+
+
+fuck your text sresht merge conflict on dat ass
