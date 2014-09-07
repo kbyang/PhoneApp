@@ -1,0 +1,6 @@
+PhoneApp/PhoneApp/bin/
+PhoneApp/PhoneApp/obj/Debug/
+PhoneApp/PhoneApp/PhoneApp.csproj
+PhoneApp/PhoneApp/Resources/Resource.designer.cs
+PhoneApp/PhoneApp.userprefs
+.DS_Store
