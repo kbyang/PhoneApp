@@ -23,7 +23,7 @@ namespace PhoneApp
 
 			//set current level and number of levels
 			int currentlevel = 1;
-			int numberoflevels = 3;
+			int numberoflevels = 4;
 			SetPrefs("currentlevel", currentlevel);
 			SetPrefs ("numberoflevels", numberoflevels);
 

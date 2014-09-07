@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="20px"
+    android:minHeight="20px">
+    <ImageButton
+        android:src="@drawable/endCall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/exPhone"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="0.0dp" />
+</RelativeLayout>

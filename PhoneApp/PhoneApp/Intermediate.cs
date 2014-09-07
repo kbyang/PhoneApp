@@ -32,7 +32,7 @@ namespace PhoneApp
 				nextlevel = nextlevel % numoflevels;
 				Console.WriteLine (nextlevel);
 				if (nextlevel == 0) {
-					nextlevel = 3;
+					nextlevel = 4;
 				}
 			}
 
@@ -45,6 +45,9 @@ namespace PhoneApp
 				break;
 			case 3:
 				StartActivity (typeof(Steady));
+				break;
+			case 4:
+				StartActivity (typeof(exDragGame));
 				break;
 			}
 				
