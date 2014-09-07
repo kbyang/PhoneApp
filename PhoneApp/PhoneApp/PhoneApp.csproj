@@ -16,6 +16,8 @@
     <AssemblyName>PhoneApp</AssemblyName>
     <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,6 +54,7 @@
     <Compile Include="PressButton.cs" />
     <Compile Include="SMSActivity.cs" />
     <Compile Include="Steady.cs" />
+    <Compile Include="exDragGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,6 +73,7 @@
     <AndroidResource Include="Resources\layout\PressButton.axml" />
     <AndroidResource Include="Resources\layout\SMSLayout.axml" />
     <AndroidResource Include="Resources\layout\Steady.axml" />
+    <AndroidResource Include="Resources\layout\exDragGame.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

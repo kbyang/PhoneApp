@@ -28,9 +28,7 @@ namespace PhoneApp
 			SetPrefs("currentlevel", nextlevel);
 
 			if (nextlevel > numoflevels) {
-				Console.WriteLine (nextlevel);
 				nextlevel = nextlevel % numoflevels;
-				Console.WriteLine (nextlevel);
 				if (nextlevel == 0) {
 					nextlevel = numoflevels;
 				}
@@ -47,6 +45,9 @@ namespace PhoneApp
 				StartActivity (typeof(Steady));
 				break;
 			case 4:
+				StartActivity (typeof(exDragGame));
+				break;
+			case 5:
 				StartActivity (typeof(SMSActivity));
 				break;
 			}
